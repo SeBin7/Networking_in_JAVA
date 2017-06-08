@@ -18,7 +18,7 @@ class BMIGUI2 extends Frame implements ActionListener {
 	TextField tf3 = new TextField();
 
 	public BMIGUI2() {
-		this.setLayout(null);
+		this.setLayout(null);		//자유배치
 		b1.setSize(100, 70);
 		b1.setLocation(200, 300);
 		this.add(b1);
